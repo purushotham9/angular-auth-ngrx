@@ -43,8 +43,8 @@ const firebaseConfig = {
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    AngularFireModule.initializeApp(firebaseConfig),
-    AngularFireAuthModule,
+    // AngularFireModule.initializeApp(firebaseConfig),
+    // AngularFireAuthModule,
     
     EffectsModule.forRoot([
       // UserEffects
